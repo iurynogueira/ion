@@ -5,6 +5,7 @@ import { ButtonComponent } from './button/button.component';
 import { IonIconComponent } from './icon/icon.component';
 import { IonComponent } from './ion.component';
 import { TabComponent } from './tab/tab.component';
+import { HeadingComponent } from './typograpry';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { TabComponent } from './tab/tab.component';
     IonIconComponent,
     ChipComponent,
     TabComponent,
+    HeadingComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -21,6 +23,7 @@ import { TabComponent } from './tab/tab.component';
     IonIconComponent,
     ChipComponent,
     TabComponent,
+    HeadingComponent,
   ],
 })
 export class IonModule {}
